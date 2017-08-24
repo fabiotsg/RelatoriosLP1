@@ -6,6 +6,8 @@
 #include <stdlib.h>
 #include <time.h>
 
+using namespace std;
+
 int main(){
     int maior, i, ar[100];
 
@@ -75,6 +77,8 @@ return 0;*/
 #include <stdlib.h>
 #include <time.h>
 
+using namespace std;
+
 int main(){
     int n, alet, i = 0;
     float a, b, c, d, e, f;
@@ -121,6 +125,7 @@ int main(){
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 float Percent(int c, int k){
     float f;
 
@@ -180,3 +185,80 @@ int main(){
 
     return 0;
 }*/
+
+//questao 4
+
+/**
+#include <iostream>
+#include <conio.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+using namespace std;
+
+
+
+float Percent(int c, int k){
+    float f;
+
+    f =((float)c*100)/(float)k;
+    return f;
+}
+
+int main(){
+
+cout.precision(2);
+//   std::cout.precision(2);
+//    std::cout << std::fixed << variavel;  (Serve para colocar dois dígitos nos float)
+
+    int votos[100], i = 0, c = 0, j =0, k, a = 0, maior = 0, indice = 0;
+    int camisa[23] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23};
+    float f, maiorf = 0;
+
+    cout << "Enquete: Quem foi o melhor jogador?" << endl;
+
+    while (1) {
+        cout << "Numero do jogador (0=fim):" << endl;
+        cin >> votos[i];
+        if (votos[i] == 0)
+            break;
+
+        if(votos[i] < 1 || votos[i] > 23){
+            a++;
+        }
+        i++;
+    }
+
+    k = i-a;
+
+    cout << "\nResultado da votacao:\n\nForam computados " << fixed << k << " votos\nJogador votos" << endl;
+
+     for(i = 0; i < 23; i++){
+        c = 0;
+
+        for(j=0; j < k; j++){
+            if(camisa[i] == votos[j]){
+                c++;
+            }
+        }
+        f = Percent(c,k);
+
+        if(c > maior){
+            maior = c;
+            indice = i;
+        }
+
+        if(f > maiorf){
+            maiorf = f;
+        }
+
+        if(c != 0){
+         cout << fixed << i+1 <<"\t " << fixed << c << " \t " << fixed << f << "%" << endl;
+        }
+    }
+
+    cout << "\nO melhor jogador foi o numero " << fixed << indice + 1 << ", com " << fixed << maior <<"votos, correspondendo a " << fixed << maiorf << "% dos votos."  << endl;
+
+    return 0;
+}
+*/
