@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1504625967 source:c:\users\gusta\desktop\testetetetetet\r5-q2\roteiro5 -q2\invoice.cpp
+	"Invoice.h"
+
+1504625436 c:\users\gusta\desktop\testetetetetet\r5-q2\roteiro5 -q2\invoice.h
+	<string>
+
+1504625376 source:c:\users\gusta\desktop\testetetetetet\r5-q2\roteiro5 -q2\main.cpp
+	<iostream>
+	"Invoice.h"
+	<string>
+
+1504626041 source:c:\users\gusta\desktop\testetetetetet\r5-q2\roteiro5 -q2\invoicetest.cpp
+	"InvoiceTest.h"
+	"Invoice.h"
+
+1504626041 c:\users\gusta\desktop\testetetetetet\r5-q2\roteiro5 -q2\invoicetest.h
+	"Invoice.h"
+
+1504829329 source:c:\users\gusta\desktop\roteiro 5\r5-q2\roteiro5 -q2\invoice.cpp
+	"Invoice.h"
+	"InvoiceTest.h"
+	<string>
+
+1504625436 c:\users\gusta\desktop\roteiro 5\r5-q2\roteiro5 -q2\invoice.h
+	<string>
+
+1504829847 source:c:\users\gusta\desktop\roteiro 5\r5-q2\roteiro5 -q2\invoicetest.cpp
+	"InvoiceTest.h"
+	"Invoice.h"
+	<string>
+
+1504829847 c:\users\gusta\desktop\roteiro 5\r5-q2\roteiro5 -q2\invoicetest.h
+	"Invoice.h"
+	<string>
+
+1504829890 source:c:\users\gusta\desktop\roteiro 5\r5-q2\roteiro5 -q2\main.cpp
+	<iostream>
+	"Invoice.h"
+	<string>
+	"InvoiceTest.h"
+

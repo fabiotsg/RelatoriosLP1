@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1503884999 source:c:\users\gusta\desktop\q3-r5\empregado.cpp
+	"Empregado.h"
+	<string.h>
+
+1503884705 c:\users\gusta\desktop\q3-r5\empregado.h
+	<string>
+
+1503885697 source:c:\users\gusta\desktop\q3-r5\main.cpp
+	<iostream>
+	"Empregado.h"
+	<string>
+
+1504629562 source:c:\users\gusta\desktop\roteiro 5\q3-r5\empregado.cpp
+	"Empregado.h"
+	<string.h>
+
+1504629553 c:\users\gusta\desktop\roteiro 5\q3-r5\empregado.h
+	<string>
+
+1504629477 source:c:\users\gusta\desktop\roteiro 5\q3-r5\empregadotest.cpp
+	"EmpregadoTest.h"
+	"Empregado.h"
+	<string>
+
+1504628965 c:\users\gusta\desktop\roteiro 5\q3-r5\empregadotest.h
+	"Empregado.h"
+	<string>
+
+1504629725 source:c:\users\gusta\desktop\roteiro 5\q3-r5\main.cpp
+	<iostream>
+	"Empregado.h"
+	"EmpregadoTest.h"
+	<string>
+

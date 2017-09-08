@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1504099548 source:c:\users\gusta\desktop\q4-r5\pessoa.cpp
+	"Pessoa.h"
+	<string>
+
+1504099531 c:\users\gusta\desktop\q4-r5\pessoa.h
+	<string>
+	<iostream>
+
+1504099756 source:c:\users\gusta\desktop\q4-r5\main.cpp
+	<iostream>
+	"Pessoa.h"
+	<string>
+
+1504631549 source:c:\users\gusta\desktop\roteiro 5\q4-r5\main.cpp
+	<iostream>
+	"Pessoa.h"
+	"CadastroDePessoa.h"
+	<string>
+
+1504630904 c:\users\gusta\desktop\roteiro 5\q4-r5\pessoa.h
+	<string>
+
+1504631140 source:c:\users\gusta\desktop\roteiro 5\q4-r5\pessoa.cpp
+	"Pessoa.h"
+	"CadastroDePessoa.h"
+	<string>
+
+1504631108 source:c:\users\gusta\desktop\roteiro 5\q4-r5\cadastrodepessoa.cpp
+	"Pessoa.h"
+	"CadastroDePessoa.h"
+	<string>
+
+1504630996 c:\users\gusta\desktop\roteiro 5\q4-r5\cadastrodepessoa.h
+	<string>
+	"Pessoa.h"
+

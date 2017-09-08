@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1504825392 source:c:\users\gusta\desktop\r5-q6\pagamento.cpp
+	"Pagamento.h"
+	"ControleDePagamentos.h"
+	<string>
+
+1504827603 c:\users\gusta\desktop\r5-q6\pagamento.h
+	<string>
+
+1504827964 source:c:\users\gusta\desktop\r5-q6\main.cpp
+	<iostream>
+	"Pagamento.h"
+	"ControleDePagamentos.h"
+	<string>
+
+1504826542 c:\users\gusta\desktop\r5-q6\controledepagamentos.h
+	"Pagamento.h"
+	<string>
+
+1504827750 source:c:\users\gusta\desktop\r5-q6\controledepagamentos.cpp
+	"ControleDePagamentos.h"
+	"Pagamento.h"
+	<string>
+	<iostream>
+

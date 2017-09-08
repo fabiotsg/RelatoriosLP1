@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1504746783 source:c:\users\gusta\desktop\questao5 - r5\despesa.cpp
+	"Despesa.h"
+	"ControleDeGastos.h"
+	<string>
+
+1504823782 source:c:\users\gusta\desktop\questao5 - r5\main.cpp
+	<iostream>
+	"Despesa.h"
+	"ControleDeGastos.h"
+	<string>
+
+1504747091 c:\users\gusta\desktop\questao5 - r5\despesa.h
+	<string>
+
+1504753137 c:\users\gusta\desktop\questao5 - r5\controledegastos.h
+	<string>
+	"Despesa.h"
+
+1504823762 source:c:\users\gusta\desktop\questao5 - r5\controledegastos.cpp
+	"ControleDeGastos.h"
+	<string>
+	"Despesa.h"
+	<iostream>
+

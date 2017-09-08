@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1504621435 source:c:\users\gusta\desktop\testetetetetet\r5-q1\data.cpp
+	"Data.h"
+	<iostream>
+
+1504618966 c:\users\gusta\desktop\testetetetetet\r5-q1\data.h
+
+1504620954 source:c:\users\gusta\desktop\testetetetetet\r5-q1\main.cpp
+	<iostream>
+	"Data.h"
+	<string>
+
+1504631754 source:c:\users\glaucia paixão\desktop\ufpb\relatorioslp1\q1-r5\main.cpp
+	<iostream>
+	"Data.h"
+	<string>
+
+1504629766 c:\users\glaucia paixão\desktop\ufpb\relatorioslp1\q1-r5\data.h
+
