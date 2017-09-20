@@ -9,9 +9,6 @@ Data::Data(){
 int Data::getDia(){
     return this->dia;
 }
-int Data::getMes(){
-    return this->mes;
-}
 int Data::getAno(){
     return this->ano;
 }
